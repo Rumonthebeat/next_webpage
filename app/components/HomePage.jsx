@@ -6,22 +6,22 @@ const HomePage = () => {
   return (
     <section className="text-white">
       <div className='grid grid-cols-1 lg:grid-cols-12'>
-        <div className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+        <div className='position: "relative" col-span-8 place-self-center text-center sm:text-left justify-self-start'>
+          <h1 className='position: "absolute" text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
             Hi, I am {" "}
             <br />
-            <span style={{ display: "inline-block", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+            <span style={{ display: "inline-block", minHeight: "2.5em" }}>
               <TypeAnimation
                 sequence={[
                   "Chuan Liu",
-                  1000,
+                  1500,
                   "Software Engineer",
-                  1000,
+                  1500,
                   "Data Analyst",
-                  1000
+                  1500
                 ]}
                 wrapper='span'
-                speed={50}
+                speed={30}
                 style={{ fontSize: "1em", display: "inline-block" }}
                 repeat={Infinity}
               />
