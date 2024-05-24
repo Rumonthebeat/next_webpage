@@ -8,7 +8,7 @@ const navLinks = [
         id: "education",
         content: (
           <ul className='list-disc pl-5'>
-            <li>University of Toronto - B.Sc. in Computer Science and Statistics</li>
+            <li>University of Toronto - B.Sc. Major in Computer Science and Statistics</li>
             <li>Relevant coursework: Software Design, Computer Organization, Data Structures, Algorithms, Database Systems, Machine Learning, Probability</li>
           </ul>
         )
@@ -48,7 +48,7 @@ const navLinks = [
 ];
 
 const AboutMe = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("education");
 
   const handleTabChange = (id) => {
     setTab(id);
