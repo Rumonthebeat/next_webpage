@@ -67,7 +67,7 @@ const AboutMe = () => {
             As a Computer Science student at the University of Toronto and an enthusiastic software developer, I have a strong passion for designing and developing interactive applications. I have experience with Back-End Development, Database Management System, Data Analytics, UX Design, Game Design etc.
             I am a quick learner, constantly seeking to expand my knowledge and skills. I thrive in collaborative environments and am always excited to work with others to build innovative and engaging applications.
           </p>
-          <div className='flex flex-wrap'>
+          <div className='flex flex-row justify-start mt-8'>
             {navLinks.map((link, index) => (
               <TabBotton
                 key={index}

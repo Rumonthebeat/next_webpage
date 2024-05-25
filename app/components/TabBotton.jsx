@@ -8,6 +8,7 @@ const TabBotton = ({ selectTab, active, children }) => {
     >
       {children}
     </button>
+    
   );
 };
 
