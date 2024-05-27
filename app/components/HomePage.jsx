@@ -4,7 +4,7 @@ import AboutMe from './AboutMe'
 
 const HomePage = () => {
   return (
-    <div className="container mt-24 mx-auto px-12">
+    <div className="container mt-auto mx-auto px-auto">
         <HiPage />
         <AboutMe />
     </div>
