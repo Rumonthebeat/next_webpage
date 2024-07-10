@@ -36,6 +36,11 @@ const projects = [
         title: "Computer Vision",
         description: `Process images using tools such as Python and OpenCV for tasks including Fourier Transform, Gaussian Filtering, Haar Wavelet Transform, and more. Apply these techniques to enhance image quality, extract features, and perform various image analysis tasks.`,
     },
+    {
+        title: "Statistical Analysis",
+        description: `Analyzed global smoking hazards data using R and Shiny, producing visualizations that revealed key trends and 
+enhanced understanding of its health impacts`,
+    },
   ];
   
   export default function Project() {
