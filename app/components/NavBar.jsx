@@ -6,7 +6,7 @@ import NavLink from './NavLink';
 const navLinks = [
   {
     title: "Experience",
-    path: "#experience"
+    path: "experience"
   },
   {
     title: "Project",
