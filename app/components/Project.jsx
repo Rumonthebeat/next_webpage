@@ -13,6 +13,10 @@ const projects = [
         description: `Conducted field studies for an on-campus parking system design, identifying key needs and challenges. Developed and prototyped with Figma to enhance stakeholder engagement and feedback.`,
     },
     {
+      title: "Human Computer Interaction",
+      description: `By employing A/B testing and other user-centered design techniques, you can create more cohesive and intuitive user interactions. This approach not only improves user satisfaction but also aligns your software more closely with user needs and business objectives. Continuous iteration based on user feedback ensures that your software remains relevant and effective in meeting user expectations.`,
+  },
+    {
         title: "Game Design",
         description: `Design and develop a local multiplayer party game using Unity, in collaboration with Sheridan College's Game Design program. This project involves close coordination with game design students to create engaging and interactive gameplay experiences.`,
     },
