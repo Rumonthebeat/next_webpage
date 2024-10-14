@@ -4,11 +4,11 @@ const experiences = [
     title: "Backend Software Development Engineer Intern",
     company: "Apple Inc.",
     date: "May 2021 - September 2021",
-    location: "Beijing",
+    location: "",
     description: `
-      - Utilized Java for back-end development for management systems, focusing on module development, debugging, and maintenance, alongside enhancing data parallel processing and computing services.
-      - Demonstrated proactive engagement in meeting project timelines and ensuring stable development and delivery, contributing significantly to the team's ability to address and fulfill technical requirements efficiently.
-      - Facilitated in managing and processing millions of data points with Python, showcasing strong analytical skills and the ability to handle large-scale data operations effectively.
+      - Built functions and refactored the architecture of an internal sales tracking CRM using Java and SpringBoot. Examined the existing factory-pattern, three-layer backend architecture, refactoring it to include a fourth "view-object" layer for enhanced security, limiting exposure of sensitive client sales information (e.g., serial numbers) in JSON output when interacting with JPA connections; Created an API connection for data filtering, providing different data views based on user login permissions.
+      - Participated in the architectural design and development of a sales incentive program in Python. Integrated various algorithms to calculate sales performance and implement a reward/penalty system based on 13-week rolling sales data. Handled big-data processing of up to one million data points with Pandas, optimizing runtime performance through multithreading with priority and time-based FIFO caching, reducing runtime by 66%, from 45 minutes to 14 minutes.
+      - Collaborated within a team of 11 in an Agile environment, actively participating in daily scrums to build rapport, resolve conflicts, and ensure effective communication with cross-functional teams, including Product Management and Database teams. Facilitated clarification of API requirements and maintained project alignment.
     `,
   },
   {
@@ -16,7 +16,7 @@ const experiences = [
     title: "English Teaching and Research Intern",
     company: "New Oriental Education & Technology Group Inc.",
     date: "June 2023 - September 2023",
-    location: "Beijing",
+    location: "",
     description: `
       - Collaborated in the development and refinement of educational content, played a key role in course design and reviewing processes, ensuring the material's relevance and effectiveness in meeting educational standards.
       - Demonstrated exceptional efficiency by completing ahead deadline without compromising quality, directly contributing to the alleviation of workload for several teachers by handling up to 80% of their responsibilities.
